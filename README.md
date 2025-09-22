@@ -9,6 +9,13 @@ This project is a minimal integration test example that demonstrates how to comb
 - Testcontainers – to run a real Kafka broker in a Docker container during tests
 - Cucumber + JUnit 5 – for behavior-driven testing (BDD) with executable specifications
 
+## Instructions
+- Set JAVA_HOME with JDK 25
+- Just run in terminal
+	```
+	mvn clean install
+	```
+
 ## Reference Documentation
 For further reference, please consider the following sections:
 
