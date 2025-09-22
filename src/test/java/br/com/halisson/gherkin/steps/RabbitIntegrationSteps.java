@@ -14,9 +14,7 @@ import org.springframework.test.annotation.DirtiesContext;
 import org.springframework.test.context.ActiveProfiles;
 
 import br.com.halisson.config.CucumberSpringConfiguration;
-import br.com.halisson.consumer.KafkaConsumer;
 import br.com.halisson.consumer.RabbitMQConsumer;
-import br.com.halisson.producer.KafkaProducer;
 import br.com.halisson.producer.RabbitMQProducer;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;

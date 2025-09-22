@@ -32,3 +32,4 @@ For further reference, please consider the following sections:
 
 ## Future Features
 * Use recent versions of containers
+* Use Hooks class and Add containers Kafka and Oracle

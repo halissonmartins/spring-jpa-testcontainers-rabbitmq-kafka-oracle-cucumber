@@ -5,6 +5,8 @@ import io.cucumber.java.BeforeAll;
 import org.junit.jupiter.api.AfterAll;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
+
+//TODO Not used
 public class Hooks extends CucumberSpringConfiguration {
 
     static Logger log = LoggerFactory.getLogger(Hooks.class);
