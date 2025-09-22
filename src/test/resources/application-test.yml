@@ -1,0 +1,33 @@
+spring:
+  application:
+    name: demo-spring-testcontainers-rabbitmq-cucumber
+    
+# RabbitMQ properties
+  rabbitmq:
+    host: localhost
+    port: 5672
+    username: guest
+    password: guest
+
+# kafka properties
+  kafka:
+    bootstrap-servers: ${KAFKA_BOOTSTRAP_SERVERS:localhost:9092}
+    consumer:
+      auto-offset-reset: earliest
+      group-id: integrationTest
+  
+# JPA with Oracle
+  datasource:
+    url: ${ORACLE_URL:testeDB}
+    username: ${ORACLE_USERNAME:testeUsername}
+    password: ${ORACLE_PASSWORD:testePassword}
+    driver-class-name: oracle.jdbc.OracleDriver
+  jpa:
+    hibernate:
+      ddl-auto: update
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.OracleDialect
+        format_sql: true
+        hbm2ddl.auto: update
+    show-sql: true
