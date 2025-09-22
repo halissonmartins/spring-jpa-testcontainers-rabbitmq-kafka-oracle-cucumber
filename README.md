@@ -30,6 +30,11 @@ For further reference, please consider the following sections:
 - https://medium.com/@uilenlelles/testcontainers-com-springboot-cucumber-junit-5-rabbitmq-814d3ee48f38
 - https://medium.com/@uilenlelles/testcontainers-com-springboot-cucumber-junit-5-oracledatabase-6ed5d081f0bc
 
-## Future Features
-* Use recent versions of containers
+## Future Fixes
+* Use recent versions of containers e libs
 * Use Hooks class and Add containers Kafka and Oracle
+* Use English in comments and logs
+
+## Future Features
+* Add two controllers (RabbitMQ and Kafka) that send a menssage and save in Oracle database
+* Add Docker Compose file to run the application
