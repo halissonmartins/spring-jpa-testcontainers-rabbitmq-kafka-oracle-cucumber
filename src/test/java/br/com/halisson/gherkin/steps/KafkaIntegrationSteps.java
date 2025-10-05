@@ -9,9 +9,6 @@ import org.junit.jupiter.api.Assertions;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.boot.test.context.SpringBootTest;
-import org.springframework.test.annotation.DirtiesContext;
-import org.springframework.test.context.ActiveProfiles;
 
 import br.com.halisson.config.CucumberSpringConfiguration;
 import br.com.halisson.consumer.KafkaConsumer;
@@ -20,9 +17,6 @@ import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 
-@ActiveProfiles("test")
-@SpringBootTest
-@DirtiesContext
 public class KafkaIntegrationSteps extends CucumberSpringConfiguration {
 
     static Logger log = LoggerFactory.getLogger(KafkaIntegrationSteps.class);

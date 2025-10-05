@@ -12,13 +12,11 @@ import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.test.annotation.DirtiesContext;
-import org.springframework.test.context.ActiveProfiles;
 
 import br.com.halisson.config.CucumberSpringConfiguration;
 import br.com.halisson.consumer.RabbitMQConsumer;
 import br.com.halisson.producer.RabbitMQProducer;
 
-@ActiveProfiles("test")
 @SpringBootTest
 @DirtiesContext
 public class RabbitMQIntegrationTest extends CucumberSpringConfiguration {
