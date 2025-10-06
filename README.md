@@ -29,6 +29,7 @@ For further reference, please consider the following sections:
 - https://medium.com/@uilenlelles/testcontainers-com-springboot-cucumber-junit-5-kafka-d455d18f9d4d
 - https://medium.com/@uilenlelles/testcontainers-com-springboot-cucumber-junit-5-rabbitmq-814d3ee48f38
 - https://medium.com/@uilenlelles/testcontainers-com-springboot-cucumber-junit-5-oracledatabase-6ed5d081f0bc
+- https://medium.com/@jignect/mastering-bdd-with-cucumber-and-java-advanced-techniques-for-scalable-test-automation-5ac447746f0f
 
 ## Future Fixes
 * Use recent versions of containers e libs
