@@ -39,3 +39,4 @@ For further reference, please consider the following sections:
 ## Future Features
 * Add two controllers (RabbitMQ and Kafka) that send a menssage and save in Oracle database
 * Add Docker Compose file to run the application
+* Add profile that run only BDD tests
