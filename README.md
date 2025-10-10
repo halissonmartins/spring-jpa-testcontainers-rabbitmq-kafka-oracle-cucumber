@@ -8,12 +8,17 @@ This project is a minimal integration test example that demonstrates how to comb
 - Spring RabbitMQ – for producing and consuming RabbitMQ messages
 - Testcontainers – to run a real Kafka broker in a Docker container during tests
 - Cucumber + JUnit 5 – for behavior-driven testing (BDD) with executable specifications
+- Maven Profiles
 
 ## Instructions
 - Set JAVA_HOME with JDK 25
-- Just run in terminal
+- Just run in terminal without Cucumber BDD Tests
 	```
 	mvn clean install
+	```
+- Just run in terminal with Cucumber BDD Tests
+	```
+	mvn clean install -P bdd-tests
 	```
 
 ## Reference Documentation

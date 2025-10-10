@@ -1,4 +1,4 @@
-package br.com.halisson;
+package br.com.halisson.gherkin;
 
 
 import org.junit.platform.suite.api.*;
@@ -20,5 +20,5 @@ import static io.cucumber.junit.platform.engine.Constants.*;
         @ConfigurationParameter(key = PLUGIN_PUBLISH_QUIET_PROPERTY_NAME, value = "true"),
         @ConfigurationParameter(key = JUNIT_PLATFORM_NAMING_STRATEGY_PROPERTY_NAME, value = "long")
 })
-public class CucumberRunnerTests {
+public class CucumberRunnerBDD {
 }

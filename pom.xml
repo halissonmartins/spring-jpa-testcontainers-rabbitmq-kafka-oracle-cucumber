@@ -159,6 +159,26 @@
 	    </dependencies>
 	</dependencyManagement>
 
+    <profiles>
+        <profile>
+            <id>bdd-tests</id>
+            <build>
+                <plugins>
+                    <plugin>
+                        <groupId>org.apache.maven.plugins</groupId>
+                        <artifactId>maven-surefire-plugin</artifactId>
+                        <configuration>
+                            <includes>
+                                <include>**/*Test.*</include>
+                                <include>**/*BDD.*</include>
+                            </includes>
+                        </configuration>
+                    </plugin>
+                </plugins>
+            </build>
+        </profile>
+    </profiles>
+
     <build>
         <plugins>
             
