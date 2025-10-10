@@ -1,0 +1,15 @@
+user.name=halissonmartins
+user.email=43214361+halissonmartins@users.noreply.github.com
+gpg.program=/.codespaces/bin/gh-gpgsign
+init.defaultbranch=main
+credential.helper=/.codespaces/bin/gitcredential_github.sh
+core.repositoryformatversion=0
+core.filemode=true
+core.bare=false
+core.logallrefupdates=true
+remote.origin.url=https://github.com/halissonmartins/spring-jpa-testcontainers-rabbitmq-kafka-oracle-cucumber
+remote.origin.fetch=+refs/heads/*:refs/remotes/origin/*
+branch.add-maven-profile.remote=origin
+branch.add-maven-profile.merge=refs/heads/add-maven-profile
+branch.add-maven-profile.vscode-merge-base=origin/main
+lfs.repositoryformatversion=0
